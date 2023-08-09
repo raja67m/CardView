@@ -1,0 +1,88 @@
+.fullPage{
+ 
+   margin: 2px;
+   height: 625px;
+   display: flex;
+   background-color: rgb(243, 246, 246);
+}
+
+.loginPage{
+
+   display: flex;
+   flex-direction:row;
+   margin-top: 60px;
+   margin-bottom: 60px;
+   border-radius: 9px;
+  margin-left: 240px;
+  background-color: white;
+  box-shadow: 15px 15px   15px 15px  rgba(18, 18, 18, 0.1);
+
+}
+.desginDiv{
+width: 400px;
+height: 505px;
+
+
+
+}
+#welcomeImg{
+   width: 340px;
+   height: 505px;
+   border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px; 
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin: 0px;
+
+}
+.LoginDiv{
+   display: flex;
+   flex-direction: column;
+   margin-left: 80px;
+   margin-top: 60px;
+   margin-right: 140px;
+   
+}
+h2{
+   color: #060606;
+   text-align: center;
+  font-weight: bold;
+}
+.newLab{
+  margin-top: 20px; 
+  color: black;
+  margin-left: 0px;
+  padding: 0px;
+}
+
+#standard-basic{
+  cursor:auto;
+}
+ #log{
+   margin-top: 30px;
+   border-radius: 20px;
+   background-color: #101010;
+   padding: 10px;
+   font-weight: bold;
+ }
+ .newSign{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+ }
+ p{
+   color: #060606;
+   padding: 5px;
+   margin-top: 5px;
+ }
+ #singin{
+   color: #060606;
+   font-weight: bold;
+   padding: 5px;
+   margin-top: 7px;
+   cursor: pointer;
+ }
+ #singin:hover{
+   background-color: aliceblue;
+   border-radius: 5px;
+ }

@@ -1,0 +1,499 @@
+#fullColumn{
+display: flex;
+flex-direction: column;
+margin: 20px;
+border: 1px solid rgb(251, 248, 248);
+border-radius: 5px;
+padding: 30px;
+background-color: white;
+box-shadow: 15px 15px 15px 15px  rgba(14, 14, 14, 0.1);
+/*
+box-shadow: 15px 15px 15px 15px  rgba(0, 0, 0, 0.1);
+*/
+}
+h1{
+   text-align: center;
+   color: rgb(7, 231, 235);
+}
+#firstBox{
+   display: flex;
+   flex-direction: row;
+}
+/*
+this is first div box- taks items
+*/
+.task-item1 {
+   background-color: rgba(238, 238, 238, 0.966);
+   color: black;
+   width: 302px;
+   height: 45px;
+   margin: 5px ;
+ 
+border-radius: 5px;
+font-family: "Arial", sans-serif;
+   font-weight: bold;
+   text-align: center;
+ }
+ .task-item2 {
+   background-color: rgba(238, 238, 238, 0.966);
+   color: black;
+   width: 302px;
+   height: 45px;
+   margin: 5px ;
+border-radius: 5px;
+    font-family: "Arial", sans-serif;
+   font-weight: bold;
+   text-align: center;
+ }
+ .task-item3 {
+   background-color: rgba(238, 238, 238, 0.966);
+   color: black;
+   width: 302px;
+   height: 45px;
+   margin: 5px ;
+border-radius: 5px;
+font-family: "Arial", sans-serif;
+   font-weight: bold;
+   text-align: center;
+ }
+ .task-item4 {
+   background-color: rgba(238, 238, 238, 0.966);
+   color: black;
+   width: 302px;
+   height: 45px;
+   margin: 5px ;
+   border-radius: 5px;
+   font-family: "Arial", sans-serif;
+   font-weight: bold;
+   text-align: center;
+ }
+p{
+   font-size: 16px; 
+ padding-top: 6px;
+
+ }
+ #spn{
+font-size: 14px;
+ }
+
+ /*
+ second box desgin 
+ */
+
+ #secondBox{
+   display: flex;
+   flex-direction: row;
+
+ }
+#firstCol{
+  display: flex;
+      flex-direction: column;
+      background-color: rgba(238, 238, 238, 0.966);
+         color: black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+         width: 269px;
+         z-index: 0;
+  }
+      
+ #secCol{
+  display: flex;
+      flex-direction: column;
+      background-color: rgba(238, 238, 238, 0.966);
+         color: black;
+    border-radius: 5px;
+    margin: 5px;
+ padding: 5px;
+         width: 269px;
+ }     
+
+#thirdCol{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(238, 238, 238, 0.966);
+     color: black;
+border-radius: 5px;
+  margin: 5px;
+ padding: 5px;
+     width: 269px; 
+}
+#fourthCol{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(238, 238, 238, 0.966);
+     color: black;
+border-radius: 5px;
+margin: 5px;
+padding: 5px;
+     width: 269px;
+} 
+         
+/*
+card design use 
+*/
+.imageAlign{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin:4px;
+}
+img{
+
+   border-radius: 100px;
+   height: 60%;
+   width: 10%;
+  
+  }
+
+ .card1{
+   position: relative;
+   color: black;
+   border-left: 2px solid rgb(248, 78, 35);
+   border-radius: 10px;
+   box-shadow: 0 2px 4px black;
+ padding: 2px;
+   cursor: pointer;
+   margin: 10px;
+   text-align:start;
+   width: 265px;
+   background-color: white;
+  
+  
+ } 
+.card1:hover{
+   background-color: rgb(242, 242, 238);
+   color: black;
+   border-top: 0.5px solid rgb(113, 111, 111);
+   border-bottom: 0.5px solid rgb(113, 111, 111);
+   border-right: 0.5px solid rgb(113, 111, 111);
+  
+}
+/*
+card Two
+*/
+.card2{
+   position: relative;
+   color: black;
+   border-left: 2px solid rgb(6, 191, 86);
+   border-radius: 10px;
+   box-shadow: 0 2px 4px black;
+   padding: 2px;
+   cursor: pointer;
+   margin: 10px;
+   background-color: white;
+  
+   text-align:start;
+   width: 269px;
+  
+ } 
+.card2:hover{
+   background-color: rgb(242, 242, 238);
+   color: black;
+   border-top: 0.5px solid rgb(113, 111, 111);
+   border-bottom: 0.5px solid rgb(113, 111, 111);
+   border-right: 0.5px solid rgb(113, 111, 111);
+  
+}
+/*
+this is card three
+*/
+.card3{
+   position: relative;
+  color: black;
+   border-left: 2px solid rgb(20, 167, 240);
+   border-radius: 10px;
+   box-shadow: 0 2px 4px black;
+   width: 269px;
+   padding: 2px;
+   cursor: pointer;
+   margin: 10px;
+   background-color: white;
+   
+   text-align:start;
+   width: 269px;
+   
+ } 
+.card3:hover{
+   background-color: rgb(242, 242, 238);
+   color: black;
+   border-top: 0.5px solid rgb(113, 111, 111);
+   border-bottom: 0.5px solid rgb(113, 111, 111);
+   border-right: 0.5px solid rgb(113, 111, 111);
+  
+}
+ .card-content{
+   padding: 5px;
+   margin: 5px;
+ 
+ }
+
+ .btn{
+   display: inline-block;
+ 
+   color: black;
+   background-color: rgb(251, 252, 252);
+   border-radius: 5px;
+   
+   
+
+ }
+ .btn:hover{
+   background-color: azure;
+   color: black;
+ }
+
+ /*
+ popup the content
+ */
+
+ .popup {
+   position: fixed;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 9999;
+
+ }
+   
+ .popup-content {
+   display: flex;
+   flex-direction: column;
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 9px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+ .lab{
+   display:flex;
+   flex-direction: column;
+ }
+ .inpBox{
+   display: flex;
+   flex-direction: column;
+ }
+ .editDetails{
+   display: flex;
+   flex-direction: row;
+ }
+ 
+
+ .bunselect{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top:20px;
+ }
+ 
+.popup-buttons{
+   margin-left: 10px;
+   padding: 8px 16px;
+   background-color: none;
+   color: #461ef6;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   background-color: white;
+ 
+}
+.popup-buttons:hover {
+   background-color: #d4cfcf;
+   color: black;
+ }
+ label{
+   color: rgb(64, 64, 64);
+   padding: 10px;
+   font-weight: bold;
+   font-family: "Arial", sans-serif;
+   margin: 10px;
+ }
+ #titleId{
+   padding: 10px 40px;
+   margin: 10px;
+   border-bottom: 1px dotted grey;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+  color: #6b6b6c;
+   cursor:not-allowed;
+   text-align: start;
+ }
+
+
+   select {
+
+     
+      border: none;
+      border-bottom: 1px solid blue;
+      background-color: #faf9fd;
+      
+      transition: background-color 0.3s ease;
+
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+      font-size: 16px;
+      margin: 15px;
+      padding: 10px 40px;
+    }
+    select:hover {
+      background-color: #f9f9fd;
+      cursor: pointer;
+    }
+
+    select:focus {
+      outline: none;
+      background-color: #fafbfe;
+      cursor: pointer;
+    }
+    select option {
+      background-color: #f1f1f1;
+      padding: 8px;
+      border-radius: 4px;
+    }
+  
+   
+textarea{
+margin: 15px;
+font-size: 15px;
+font-weight: bold;
+border-radius: 4px;
+font-family: "Arial", sans-serif;
+color: rgb(64, 64, 64);
+}
+textarea:hover{
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+textarea:active{
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.titled{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+#X{
+   border: none;
+  color: #6b6b6c;
+  font-weight: bold;
+   width: 10%;
+   height: 15%;
+   background-color: white;
+   cursor: pointer;
+   border-radius: 50px;
+  
+}
+#X:hover{
+background-color: #efebeb;
+color: rgb(80, 78, 78);
+} 
+#editCard{
+   color: rgb(64, 64, 64);
+   padding: 10px;
+   font-weight: bold;
+   font-family: "Arial", sans-serif;
+   margin: 10px;  
+}
+
+.deletedConfrimed{
+
+display: flex;
+flex-direction: row; 
+justify-content:flex-end; 
+
+
+}
+.conformed{
+  margin-left: 10px;
+  padding: 8px 16px;
+  background-color: none;
+  color: #461ef6;
+  border: none;
+  
+  cursor: pointer;
+  background-color: white; 
+}
+.conformed:hover{
+  background-color: #d4cfcf;
+  color: #461ef6;
+  border-radius: 3px;
+}
+#editCarded{
+  color: rgb(64, 64, 64);
+  padding: 3px;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+  margin: 5px;
+}
+#areYouDelete{
+  color: #3a3a3b;
+ 
+}
+#newTask{
+
+  display: flex;
+  flex: row;
+  padding: 10px;
+  border-radius: 20px;
+  width: 140px;
+  height: 45px;
+  background-color: rgb(240, 242, 242);
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 1185px;
+ color: black;
+ border: none;
+}
+#newTask:hover{
+  background-color: #f5f5f5;
+   border:none;
+   
+}
+.TaskisLink:hover{
+text-decoration: none;
+}
+
+
+span{
+margin-left: 14px;
+}
+#newBox{
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 6px;
+
+
+}
+#newBox:active::after{
+  border: none;
+  
+}
+.titleId{
+  margin: 5px;
+  padding: 10px 50px;
+  border: 1px solid grey;
+  border-radius: 6px; 
+}
+.lab{
+
+  color: rgb(64, 64, 64);
+  font-weight: bold;
+   font-family: "Arial", sans-serif;
+ 
+
+}
+.labed{
+  color: rgb(64, 64, 64);
+  
+
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+}
